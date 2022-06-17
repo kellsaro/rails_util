@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    railsutil (0.1.0)
+    rails_util (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -52,7 +52,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  railsutil!
+  rails_util!
   rake (~> 13.0)
   rspec (~> 3.11)
   standard (~> 1.3)

@@ -1,4 +1,4 @@
-module Railsutil
+module RailsUtil
   class ServiceGenerator < Rails::Generators::NamedBase
     source_root File.expand_path("templates", __dir__)
 

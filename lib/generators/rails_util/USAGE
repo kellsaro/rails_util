@@ -4,7 +4,7 @@ Description:
       This generates a service class in app/services, or app/services/module if module name is present.
 
 Example:
-    `bin/rails generate railsutil:service Mailer --module MailerModule`
+    `bin/rails generate rails_util:service Mailer --module MailerModule`
 
     This will create:
       app/services/mailer_module/mailer_service.rb

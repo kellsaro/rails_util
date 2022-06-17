@@ -1,10 +1,9 @@
-<% if @module_name.present? %>module <%= @module_name.camelize %><% end %>
+<% if @module_name.present? -%>module <%= @module_name.camelize %><% end -%>
 <%= @spaces %>Rspec.describe <%= class_name %>Service, type: :service do
-
 <%= @spaces %>  describe "#call" do
 <%= @spaces %>    it "does something" do
 <%= @spaces %>      # TODO: test code here
 <%= @spaces %>    end
 <%= @spaces %>  end
 <%= @spaces %>end
-<% if @module_name.present? %>end<% end %>
+<% if @module_name.present? -%>end<% end -%>

@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/railsutil/version"
+require_relative "lib/rails_util/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "railsutil"
-  spec.version = Railsutil::VERSION
+  spec.name = "rails_util"
+  spec.version = RailsUtil::VERSION
   spec.authors = ["kellsaro"]
   spec.email = ["kellsaro@gmail.com"]
 

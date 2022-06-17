@@ -1,4 +1,4 @@
-# Railsutil
+# RailsUtil
 
     Stubs out a new service and the service spec for Rails applications. Pass the service name, either CamelCased or under_scored.
       To create a service within a module, just add --module NAME, or --module=NAME
@@ -9,7 +9,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'railsutil'
+gem 'rails_util'
 ```
 
 And then execute:
@@ -18,10 +18,10 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install railsutil
+    $ gem install rails_util
 
 ## Usage
-    `bin/rails generate railsutil:service Mailer --module MailerModule`
+    `bin/rails generate rails_util:service Mailer --module MailerModule`
 
     This will create:
 
@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/railsutil.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rails_util.
 
 ## License
 

@@ -1,6 +1,5 @@
-<% if @module_name.present? %>module <%= @module_name.camelize %><% end %>
+<% if @module_name.present? -%>module <%= @module_name.camelize %><% end -%>
 <%= @spaces %>class <%= class_name %>Service
-
 <%= @spaces %>  # Allows to call this service as <%= class_name %>Service.call(args)
 <%= @spaces %>  def self.call(*args, &block)
 <%= @spaces %>    new(*args, &block).call
@@ -14,4 +13,4 @@
 <%= @spaces %>    # TODO: Implementation logic ...
 <%= @spaces %>  end
 <%= @spaces %>end
-<% if @module_name.present? %>end<% end %>
+<% if @module_name.present? -%>end<% end -%>
