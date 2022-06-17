@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "util/version"
+require_relative "railsutil/version"
 
-module Util
+module Railsutil
   class Error < StandardError; end
   # Your code goes here...
 end

@@ -1,15 +1,15 @@
-# Util
+# Railsutil
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/util`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+    Stubs out a new service and the service spec for Rails applications. Pass the service name, either CamelCased or under_scored.
+      To create a service within a module, just add --module NAME, or --module=NAME
+      This generates a service class in app/services, or app/services/module if module name is present.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'util'
+gem 'railsutil'
 ```
 
 And then execute:
@@ -18,11 +18,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install util
+    $ gem install railsutil
 
 ## Usage
+    `bin/rails generate railsutil:service Mailer --module MailerModule`
 
-TODO: Write usage instructions here
+    This will create:
+
+      app/services/mailer_module/mailer_service.rb
+      spec/services/mailer_module/mailer_service_spec.rb
 
 ## Development
 
@@ -32,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/util.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/railsutil.
 
 ## License
 
