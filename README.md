@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rails_util.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kellsaro/rails_util.
 
 ## License
 
